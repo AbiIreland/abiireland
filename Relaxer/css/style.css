@@ -4,6 +4,10 @@
   margin: 0 auto;
 }
 
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
 
 .header{
 background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
@@ -17,7 +21,6 @@ padding-top: 25px;
   color: white;
   font-size: 24px;
   font-weight: bolder;
-  font-family: 'Open Sans', sans-serif;
   padding-left: 25px;
   text-decoration: none;
 }
@@ -25,7 +28,6 @@ padding-top: 25px;
 .headerh2 {
   color: white;
   font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   text-align: center;
   padding-top: 50px;
@@ -36,8 +38,6 @@ padding-top: 25px;
 #button1{
     background-color: #f9e42e;
     border: #f9e42e;
-    font-family: 'Open Sans', sans-serif;
-    font-family: verdana;
     font-size: 14px;
     display: block;
     margin: auto;
@@ -49,7 +49,6 @@ padding-top: 25px;
 
 h2{
   color: #121212;
-  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: normal;
 }
@@ -62,14 +61,12 @@ h2{
 
 p {
   color: #606161;
-  font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: lighter;
 }
 
 li {
   color: #606161;
-  font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: lighter;
   padding: 5px 0px;
@@ -84,7 +81,6 @@ li {
 
 blockquote{
   font-style: italic;
-  font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
   font-size: 18px;
   color: white;
@@ -111,7 +107,6 @@ blockquote{
     font-size: 12px;
     font-weight: bolder;
     border-radius: 5px;
-    font-family: 'Open Sans', sans-serif;
     color: white;
     display: block;
     margin: auto;
@@ -123,7 +118,6 @@ blockquote{
   color: #f9e42e;
   font-size: 24px;
   font-weight: bolder;
-  font-family: 'Open Sans', sans-serif;
   text-align: center;
   text-decoration: none;
 
@@ -143,5 +137,4 @@ footer{
 
 p.footer{
   font-size: 9px;
-  font-family: 'Open Sans', sans-serif;
 }
