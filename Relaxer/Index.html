@@ -15,13 +15,26 @@
 <body>
 
 	<div id="container">
-
+	
+	<!-- header : 
+		You could also use the html5 tag <header> instead of 'div.header'
+	-->
 	<div class="header">
 
+	<!-- LOGO : 
+		1. Please use href="#" for blank or unknown href values. The '#' keeps the browser on the same page.
+		2. If we replaced the classes '.logo1' and '.logo2' with just '.logo', we can target them with the following selectors in CSS:  
+			'.header .logo' and 'footer .logo' respectively.    
+	-->
 		<a href="link" class="logo1">Relaxr</a>
-
+	
+	<!-- H2  
+		We could also target the h2 in the header with the following selector: '.header h2'. We may not need the class '.headerh2'
+	-->
 		<h2 class="headerh2">Get piece of mind with a single tap</h2>
-
+	<!-- 
+		The button can also be targetted using the selector '.header button' in CSS. We might not need the id, '#button1', for styling.
+	-->
 		<button id="button1">Get it Now</button>
 
 	</div>
@@ -37,7 +50,9 @@
 			<li>Excel automation to complete work for you</li>
 			<li>Responds to emails on your behalf</li>
 			<li>Does all your work for you with our revolutionary AI technology</li>
-
+		<!-- We are missing the closing tag </ul> : 
+			 Modern browsers are usually smart enough to render the page correctly but this could cause the site to break at some point. 
+		-->
 	</div>
 
 	<div class="blockquote1">
@@ -49,19 +64,26 @@
 	</div>
 
 	<div class="yellow-strip">
-
+		<!-- Using the id can be useful for javascript, but we can also target the button in CSS with the following selector: '.yellow-strip button' -->
 		<button id="button2">Sign Up Now!</button>
 
 	</div>
 
 	<footer>
+		<!-- as pointed earlier , the class '.logo2' can be replaced with '.logo' and targetted using the selector : 'footer .logo' -->
 		<a href="link" class="logo2">Relaxr</a>	
 
 		<div class="social-media">
+			<!-- 
+				The share icons will most likely be links to twitter, facebook, etc.
+				These should probably be anchor tags, e.g
+				<a href="http://twitter.com"><img src="images/twitter.png"></a>
+			-->
 			<img src="images/twitter.png">
 			<img src="images/facebook.png">
 		</div>
 
+		<!-- Sorry I'm just being picky here, :-) , a more semantic classname would be '.copyright' -->
 		<p class="footer">Copyright 2015.  Relaxr.</p>
 
 	</footer>

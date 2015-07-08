@@ -54,6 +54,7 @@ h2{
 }
 
 .benefits {
+/* The properties and values in the this selector are being ignored because there is a missing semi-colon between the rules */
     background-color: #f0efef
     height: 300px;
     padding-left: 15px;
