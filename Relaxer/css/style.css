@@ -9,23 +9,23 @@ body{
 }
 
 
-.header{
+header{
 background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+background-size: cover;
 height: 350px;
 padding-top: 25px;
     }
 
 
-.logo1{
-  color: white;
+header .logo {
+  color: white; 
   font-size: 24px;
   font-weight: bolder;
   padding-left: 25px;
   text-decoration: none;
 }
 
-.headerh2 {
+header h2 {
   color: white;
   font-size: 20px;
   font-weight: normal;
@@ -34,8 +34,7 @@ padding-top: 25px;
   padding-bottom: 25px;
 }
 
-
-#button1{
+header button {
     background-color: #f9e42e;
     border: #f9e42e;
     font-size: 14px;
@@ -51,12 +50,18 @@ h2{
   color: #121212;
   font-size: 20px;
   font-weight: normal;
+  padding-top: 25px;
 }
 
 .benefits {
+<<<<<<< Updated upstream
 /* The properties and values in the this selector are being ignored because there is a missing semi-colon between the rules */
     background-color: #f0efef
     height: 300px;
+=======
+    background-color: #f0efef;
+    height: 250px;
+>>>>>>> Stashed changes
     padding-left: 15px;
 }
 
@@ -102,7 +107,7 @@ blockquote{
   padding: 15px;
 }
 
-#button2{
+.yellow-strip button{
     background-color: #033048;
     border: #033048;
     font-size: 12px;
@@ -115,13 +120,12 @@ blockquote{
     height: 30px;
   }
 
-.logo2{
+footer .logo{
   color: #f9e42e;
   font-size: 24px;
   font-weight: bolder;
   text-align: center;
   text-decoration: none;
-
 }
 
 img {
@@ -136,6 +140,6 @@ footer{
   padding-top: 15px;
 }
 
-p.footer{
+p.copyright{
   font-size: 9px;
 }
